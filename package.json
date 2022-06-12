@@ -1,0 +1,30 @@
+{
+    "name": "actor-zillow-api",
+    "version": "0.0.1",
+    "dependencies": {
+        "apify": "^2.2.2",
+        "moment": "^2.29.1",
+        "@turf/turf": "^6.5.0",
+        "browser-pool": "^3.1.1",
+        "got-scraping": "^3.2.8",
+        "puppeteer": "*"
+    },
+    "devDependencies": {
+        "@apify/eslint-config": "^0.2.2",
+        "eslint": "^8.10.0"
+    },
+    "scripts": {
+        "start": "node src/main.js",
+        "lint": "eslint ./src --ext .js,.jsx",
+        "lint:fix": "eslint ./src --ext .js,.jsx --fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cermak-petr/actor-zillow-api-scraper"
+    },
+    "author": {
+        "name": "Petr Čermák",
+        "url": "https://github.com/cermak-petr"
+    },
+    "license": "Apache-2.0"
+}
